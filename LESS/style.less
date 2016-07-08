@@ -1,0 +1,35 @@
+@base-font: 16px;
+@base-color: rgb(95, 98, 115);
+
+#header, #content{
+  max-width: 80%;
+  margin:0 auto;
+  color: @base-color;
+}
+
+#header{
+
+  span:first-child{
+    font-size: @base-font;
+    font-weight: bold;
+  }
+
+  span:last-child{
+    ul{
+      float: right;
+      li{
+        display: inline;
+        list-style-type: none;
+        margin-left: 20px;
+        a{
+          text-decoration: underline;
+          color: @base-color;
+          font-size: @base-font/1.2;
+        }
+      }
+
+    }
+
+  }
+
+}

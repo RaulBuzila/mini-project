@@ -1,0 +1,23 @@
+#header,
+#content {
+  max-width: 80%;
+  margin: 0 auto;
+  color: #5f6273;
+}
+#header span:first-child {
+  font-size: 16px;
+  font-weight: bold;
+}
+#header span:last-child ul {
+  float: right;
+}
+#header span:last-child ul li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 20px;
+}
+#header span:last-child ul li a {
+  text-decoration: underline;
+  color: #5f6273;
+  font-size: 13.333333333333334px;
+}
