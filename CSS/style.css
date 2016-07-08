@@ -1,23 +1,217 @@
-#header,
-#content {
-  max-width: 80%;
-  margin: 0 auto;
+.header,
+.content {
+  max-width: 75%;
   color: #5f6273;
+  font-size: 18px;
+  margin-left: 10%;
 }
-#header span:first-child {
-  font-size: 16px;
+.header {
+  margin-top: 50px;
+  margin-bottom: 100px  ;
+}
+.header span:first-child {
   font-weight: bold;
 }
-#header span:last-child ul {
+.header span:last-child {
   float: right;
+  font-size: 14.4px;
 }
-#header span:last-child ul li {
-  display: inline;
-  list-style-type: none;
+.header span:last-child a {
   margin-left: 20px;
-}
-#header span:last-child ul li a {
   text-decoration: underline;
   color: #5f6273;
-  font-size: 13.333333333333334px;
+}
+.content {
+  font-family: ProximaNova, sans-serif;
+  font-weight: normal;
+}
+.content div {
+  float: left;
+}
+.columns {
+  margin-bottom: 150px;
+}
+#first-column ul {
+  margin-left: -40px;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+#first-column ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+}
+#first-column button {
+  width: 200px;
+  height: 60px;
+  border-style: solid;
+  border-radius: 2px;
+  font-size: 18px;
+}
+#dropbox {
+  width: 100px;
+  height: 27px;
+}
+#google {
+  width: 193px;
+  height: 24px;
+}
+#amazon {
+  width: 130px;
+  height: 46px;
+}
+#angular {
+  width: 115px;
+  height: 32px;
+}
+#backbone {
+  width: 152px;
+  height: 27px;
+}
+#ember {
+  width: 40px;
+  height: 40px;
+}
+#device {
+  width: 110px;
+  height: 44px;
+}
+#browser {
+  width: 214px;
+  height: 43px;
+  margin-left: 150px;
+}
+#sign {
+  border-color: #e2e1e9;
+  background-color: #ff6600;
+  color: white;
+}
+#learn {
+  font-weight: bold;
+  border-color: #5f6273;
+  margin-left: 30px;
+}
+#second-column {
+  margin-top: 20px;
+  margin-left: 200px;
+  width: 360px;
+  height: 430px;
+  background-color: #c8c8c8;
+}
+#second-column p {
+  text-align: center;
+  margin-top: 50%;
+}
+.details {
+  clear: left;
+  font-weight: normal;
+  text-align: center;
+}
+.text {
+  margin: 0px 40px 50px 200px;
+  text-align: center;
+  font-size: 12px;
+}
+.text p:first-child {
+  color: #ff530d;
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ff530d;
+}
+.circle .my-icon {
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.circle .bell {
+  color: white;
+  margin-left: 22px;
+  margin-top: 22px;
+}
+.coloane-bulinate {
+  margin-left: 55px;
+  margin-bottom: 50px;
+}
+.column-1,
+.column-2,
+.column-3 {
+  width: 30%;
+}
+.column-1 .column-1,
+.column-2 .column-1,
+.column-3 .column-1 {
+  margin-left: 350px;
+}
+.column-1 .list,
+.column-2 .list,
+.column-3 .list {
+  font-size: 10.285714285714286px;
+  margin-top: 10px;
+  margin-left: 1px;
+}
+.column-1 .list div,
+.column-2 .list div,
+.column-3 .list div {
+  margin-top: 10px;
+  margin-right: 12px;
+}
+.column-1 .list p,
+.column-2 .list p,
+.column-3 .list p {
+  font-size: 16.363636363636363px;
+}
+.column-1 .list p:last-child,
+.column-2 .list p:last-child,
+.column-3 .list p:last-child {
+  font-size: 12px;
+}
+.details2 {
+  clear: left;
+  margin-top: 200px;
+  font-weight: normal;
+  text-align: center;
+}
+.text2 {
+  margin: 0px 40px 50px 200px;
+  text-align: center;
+  font-size: 12px;
+}
+.text2 p:first-child {
+  color: #ff530d;
+}
+.offer {
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+.offer #popular {
+  width: 260px;
+  height: 37px;
+  background-color: #ff6600;
+  color: white;
+  padding-bottom: 5px;
+}
+.clear {
+  clear: both;
+}
+.black-div {
+  width: 260px;
+  height: 180px;
+  margin-left: 5%;
+  float: left;
+  background-color: black;
+}
+.black-div p {
+  color: white;
+  text-align: center;
+  font-size: 54px;
+}
+#standard-free,
+#professional,
+#business {
+  text-align: center;
+  color: white;
+  font-size: 15px;
 }
