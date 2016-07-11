@@ -1,27 +1,27 @@
 @base-font: 18px;
 @base-color: rgb(95, 98, 115);
+.class-for-prices{
+  color: rgb(214, 214, 214);
+  font-size: @base-font/1.5;
+}
 .set-dimension(@img-width, @img-height)
 {
   width: @img-width;
   height: @img-height;
 }
-
 .header, .content{
   max-width: 75%;
   color: @base-color;
   font-size: @base-font;
   margin-left: 10%;
 }
-
 .header{
 
 margin-top: 50px;
   margin-bottom: 100px  ;
-
   span:first-child{
     font-weight: bold;
   }
-
   span:last-child{
     float: right;
     font-size: @base-font/1.25;
@@ -30,32 +30,24 @@ margin-top: 50px;
       text-decoration: underline;
       color: @base-color;
     }
-
   }
 }
-
 .content{
   font-family: ProximaNova,sans-serif;
   font-weight: normal;
-
   div{
     float:left;
   }
 }
-
 .columns{
   margin-bottom: 150px;
 }
-
 #first-column{
-
   ul{
-
     margin-left: -40px;
     margin-top: -20px;
     margin-bottom: 40px;
     li{
-
       list-style-type: none;
       display: inline;
       margin-right: 10px;
@@ -68,23 +60,18 @@ margin-top: 50px;
     font-size: @base-font;
   }
 }
-
 #dropbox{
   .set-dimension(100px, 27px);
 }
-
 #google{
   .set-dimension(193px, 24px);
 }
-
 #amazon{
   .set-dimension(130px, 46px);
 }
-
 #angular{
   .set-dimension(115px, 32px);
 }
-
 #backbone{
   .set-dimension(152px, 27px);
 }
@@ -98,7 +85,6 @@ margin-top: 50px;
   .set-dimension(214px, 43px);
   margin-left: 150px;
 }
-
 #sign{
   border-color: rgb(226, 225, 233);
   background-color: rgb(255, 102, 0);
@@ -109,7 +95,6 @@ margin-top: 50px;
   border-color: #5f6273;
   margin-left:30px;
 }
-
 #second-column{
     margin-top: 20px;
     margin-left: 140px;
@@ -121,14 +106,11 @@ margin-top: 50px;
     margin-top: 50%;
   }
 }
-
-
 .details{
   clear: left;
   font-weight: normal;
   text-align: center;
  }
-
 .text{
   margin: 0px 40px 50px 200px;
   text-align: center;
@@ -137,7 +119,6 @@ margin-top: 50px;
     color: rgb(255,83,13);
   }
 }
-
 .circle{
   .set-dimension(60px, 60px);
   border-radius: 50%;
@@ -147,28 +128,21 @@ margin-top: 50px;
     margin-top: 20px;
     margin-left:20px;
   }
-
   .bell{
     color: white;
     margin-left: 22px;
     margin-top: 22px;
   }
 }
-
-
 .coloane-bulinate{
   margin-left: 55px;
   margin-bottom: 50px;
 }
-
 .column-1, .column-2, .column-3{
-
   width: 30%;
-
   .column-1{
     margin-left:350px;
   }
-
   .list{
     font-size: @base-font/1.75;
     margin-top:10px;
@@ -186,6 +160,22 @@ margin-top: 50px;
     }
   }
 }
+.comming-button{
+  .set-dimension(65px,20px);
+  background-color: rgb(255, 102, 0);
+  span{
+    color: white;
+    font-size: 7px;
+    text-align: center;
+    margin: 5%;
+  }
+}
+
+
+#comming{
+
+}
+
 
 .details2{
   clear: left;
@@ -193,7 +183,6 @@ margin-top: 50px;
   font-weight: normal;
   text-align: center;
 }
-
 .text2{
   margin: 0px 40px 50px 200px;
   text-align: center;
@@ -202,9 +191,6 @@ margin-top: 50px;
     color: rgb(255,83,13);
   }
 }
-
-
-
 .offer{
   margin-bottom: 10px;
   margin-left: 5%;
@@ -216,44 +202,99 @@ margin-top: 50px;
     padding-bottom: 5px;
   }
 }
-
 .clear{
   clear: both;
 }
-
   .black-div{
     .set-dimension(260px,180px);
     margin-left: 5%;
     float: left;
     background-color: black;
+    #dollar{
+      .class-for-prices;
+      position: relative;
+      left: 52px;
+      top: 20px;
+    }
     p{
       color:white;
       text-align: center;
       font-size: @base-font*3;
+      .month{
+        font-size: 10px;
+        color: rgb(214, 214, 214);
+        position: relative;
+      }
+    }
+    .floating-black-div{
+      margin-top:20px;
+    }
+    p:last-child{
+      .class-for-prices;
+      font-style: italic;
+      position: relative;
+      bottom: 15px;
+      color: grey;
     }
   }
-
 #standard-free, #professional, #business{
   text-align: center;
   color:white;
   font-size: @base-font/1.2;
 }
-
 .benefits{
   background-color: rgb(240, 240, 240);
   margin-left: 5%;
   .set-dimension(260px, 289px);
-  p:first-child{
-    margin-top: 10px;
-  }
-  p{
-    font-size: 12px;
-    font-family: Arial;
-    text-align: center;
-    border-bottom: 1px solid rgba(0,0,0,.2);
-    padding: 18px 0px;
+  .inside-benefits{
+    margin-left: 12%;
+    margin-left: 12%;
+    p:first-child{
+      margin-top: 15px;
+    }
+    p{
+      font-size: 12px;
+      font-family: Arial;
+      text-align: center;
+      border-bottom: 1px solid rgba(0,0,0,.2);
+      padding: 12px 0px;
+    }
   }
 }
+.clear-div{
+  clear: both;
+}
+.footer{
+  padding-left: 15%;
+  margin-top: 100px;
+  .set-dimension(1366px, 200px);
+  background-color: rgb(53, 55, 64);
+  .footer-column{
+    margin-left: 90px;
+    padding-top: 30px;
+    font-size: @base-font;
+    float:left;
+    color: white;
+    p:first-child{
+      margin-top: 25px;
+    }
+    p{
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+  }
+  .footer-1{
+    margin-right: -35px;
+    margin-left: 0px;
+    color: #a4abbf;
+    p:last-child{
+      font-size: @base-font/1.25;
+    }
+  }
+}
+
+
+
 
 
 

@@ -1,3 +1,7 @@
+.class-for-prices {
+  color: #d6d6d6;
+  font-size: 12px;
+}
 .header,
 .content {
   max-width: 75%;
@@ -168,6 +172,17 @@
 .column-3 .list p:last-child {
   font-size: 12px;
 }
+.comming-button {
+  width: 65px;
+  height: 20px;
+  background-color: #ff6600;
+}
+.comming-button span {
+  color: white;
+  font-size: 7px;
+  text-align: center;
+  margin: 5%;
+}
 .details2 {
   clear: left;
   margin-top: 200px;
@@ -203,10 +218,33 @@
   float: left;
   background-color: black;
 }
+.black-div #dollar {
+  color: #d6d6d6;
+  font-size: 12px;
+  position: relative;
+  left: 52px;
+  top: 20px;
+}
 .black-div p {
   color: white;
   text-align: center;
   font-size: 54px;
+}
+.black-div p .month {
+  font-size: 10px;
+  color: #d6d6d6;
+  position: relative;
+}
+.black-div .floating-black-div {
+  margin-top: 20px;
+}
+.black-div p:last-child {
+  color: #d6d6d6;
+  font-size: 12px;
+  font-style: italic;
+  position: relative;
+  bottom: 15px;
+  color: grey;
 }
 #standard-free,
 #professional,
@@ -221,13 +259,48 @@
   width: 260px;
   height: 289px;
 }
-.benefits p:first-child {
-  margin-top: 10px;
+.benefits .inside-benefits {
+  margin-left: 12%;
 }
-.benefits p {
+.benefits .inside-benefits p:first-child {
+  margin-top: 15px;
+}
+.benefits .inside-benefits p {
   font-size: 12px;
   font-family: Arial;
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 18px 0px;
+  padding: 12px 0px;
+}
+.clear-div {
+  clear: both;
+}
+.footer {
+  padding-left: 15%;
+  margin-top: 100px;
+  width: 1366px;
+  height: 200px;
+  background-color: #353740;
+}
+.footer .footer-column {
+  margin-left: 90px;
+  padding-top: 30px;
+  font-size: 18px;
+  float: left;
+  color: white;
+}
+.footer .footer-column p:first-child {
+  margin-top: 25px;
+}
+.footer .footer-column p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.footer .footer-1 {
+  margin-right: -35px;
+  margin-left: 0px;
+  color: #a4abbf;
+}
+.footer .footer-1 p:last-child {
+  font-size: 14.4px;
 }
