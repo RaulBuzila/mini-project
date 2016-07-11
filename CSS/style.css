@@ -93,7 +93,7 @@
 }
 #second-column {
   margin-top: 20px;
-  margin-left: 200px;
+  margin-left: 140px;
   width: 360px;
   height: 430px;
   background-color: #c8c8c8;
@@ -214,4 +214,20 @@
   text-align: center;
   color: white;
   font-size: 15px;
+}
+.benefits {
+  background-color: #f0f0f0;
+  margin-left: 5%;
+  width: 260px;
+  height: 289px;
+}
+.benefits p:first-child {
+  margin-top: 10px;
+}
+.benefits p {
+  font-size: 12px;
+  font-family: Arial;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 18px 0px;
 }
